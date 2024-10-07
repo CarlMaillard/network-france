@@ -1769,6 +1769,7 @@ figcaption {
 }
 
 .image-fixed-devis {
+  object-fit: cover;
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -2607,6 +2608,11 @@ figcaption {
     padding-right: 0;
   }
 
+  .padding-vertical.padding-xxlarge {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   .padding-horizontal {
     padding-top: 0;
     padding-bottom: 0;
@@ -2774,8 +2780,8 @@ figcaption {
   }
 
   .layout239_item {
-    padding-left: 6.6rem;
-    padding-right: 6.6rem;
+    padding-left: 4.4rem;
+    padding-right: 4.4rem;
   }
 
   .layout_b2b {
@@ -2832,6 +2838,10 @@ figcaption {
 
   .subtitle_devis.text-align-center {
     font-size: 2rem;
+  }
+
+  .section_partner_valeur {
+    padding-top: 2rem;
   }
 
   .padding-global-2 {
@@ -2928,6 +2938,10 @@ figcaption {
   .hero_content_image {
     padding-left: .6rem;
     padding-right: .6rem;
+  }
+
+  .divider-large {
+    margin-bottom: 6rem;
   }
 
   .partneraire_component {
@@ -3078,8 +3092,8 @@ figcaption {
   }
 
   .layout239_item {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .layout_b2b {
@@ -3111,6 +3125,10 @@ figcaption {
 
   .subtitle_devis.text-align-center {
     font-size: 1.5rem;
+  }
+
+  .section_partner_valeur {
+    padding-top: 2rem;
   }
 
   .spacer-medium-4 {
@@ -3167,9 +3185,17 @@ figcaption {
     padding-right: .4rem;
   }
 
+  .divider-large {
+    margin-bottom: 6rem;
+  }
+
   .partneraire_component {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     grid-template-rows: auto auto;
     grid-template-columns: 1fr 1fr;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 
